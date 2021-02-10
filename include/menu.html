@@ -1,0 +1,111 @@
+<nav class="navbar">
+    <ul class="site">
+        <li class="tutorial">
+            <a href="https://lukasphp.soigneux.fr" id="color">
+                <p>Lukas Soigneux</p>
+            </a>
+        </li>
+        <li class="tutorial">
+            <img src="../../php/index/img/ls.png"  class="user"/>
+        </li>
+    </ul>
+</nav>
+<style>
+    * {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul, li{
+    list-style-type: none;
+}
+
+ul{
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #1e272e;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.user{
+    position: relative;
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    left: -50px;
+}
+
+nav{
+    background-color: #353b48;
+    position: relative;
+    color: #fff;
+    width: 105%;
+    min-height: 80px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#a{
+    font-size: 18px;
+    background: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.site{
+    font-size: 14px;
+}
+
+.tutorial{
+    position: relative;
+    left: -20px;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+#color{
+    color: #fff;
+}
+
+@media screen and (min-width: 650px) and (max-width: 900px) {
+    .user{
+        position: relative;
+        left: -40px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1500px) {
+    .user{
+        position: relative;
+        left: -70px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 650px) {
+    .user{
+        position: relative;
+        left: -20px;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 2000px) {
+    .user{
+        position: relative;
+        left: -70px;
+    }
+}
+</style>

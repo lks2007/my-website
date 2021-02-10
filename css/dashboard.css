@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    overflow: hidden;
+}
+
+*{
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+color: white;
+text-decoration: none;
+}
+
+.item{
+    border-top: 2px solid #2980b9;
+    padding: 12px 16px;
+    overflow: hidden;
+    margin: auto;
+    width: auto;
+    transition: all .5s;
+}
+
+.container-menu{
+    position: relative;
+    border-radius: 4px;
+    border-bottom: 2px solid #2980b9;
+    border-right: 2px solid #2980b9;
+    border-left: 2px solid #2980b9;
+    width: auto;
+    background-color: #333;
+    text-align: center;
+    max-width: 130px;
+    margin: auto;
+    left: 42%;
+    top: -10px;
+    transform: translateX(-42%);
+    z-index: 5;
+    transition: all .7s linear;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.show{
+    opacity: 1;
+    visibility: visible;
+    transition: all .7s linear;
+}
+
+.user{
+    z-index: 5;
+}
+
+.modal-panel{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: auto;
+    background-color: #34495e;
+    display: block;
+    border-radius: 4px;
+    min-width: 400px;
+    min-height: 250px;
+    z-index: 6;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s ease-in;
+}
+
+.modal-close{
+    background-color: #3498db;
+    border-radius: 4px 4px 0px 0px;
+    padding: 5px;
+    font-size: 22px;
+    text-align: right;
+}
+
+.text{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    left: 50%;
+    top: 30%;
+    min-width: 400px;
+    width: auto;
+    transform: translateY(-30%) translateX(-50%);
+}
+
+#close-f{
+    position: relative;
+    left: -2%;
+}
+
+.button{
+    display: inline-block;
+    padding: 12px 18px;
+    color: white;
+    border-radius: 4px;
+    margin-left: 10px;
+    left: 200%;
+    top: 300%;
+    transform: translateX(210%) translateY(300%);
+}
+
+.yes{
+    background-color: #2ecc71;
+    transition: .5s;
+}
+
+.no{
+    background-color: #e74c3c;
+    transition: .5s;
+}
+
+.no:hover{
+    background-color: #c0392b;
+}
+
+.yes:hover{
+    background-color: #27ae60;
+}
