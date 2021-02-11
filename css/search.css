@@ -129,6 +129,11 @@ a{
     border-top-right-radius: 4px;
 }
 
+img{
+    width: 350px;
+    height: 200px;
+}
+
 .ligne {
     position: relative;
     background-color: #808e9b;

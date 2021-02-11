@@ -135,7 +135,6 @@ h1{
 .img{
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    object-fit: cover;
 }
 
 .ligne{
@@ -198,6 +197,9 @@ h1{
 .container-img img{
     opacity: 1;
     transition: 0.5s;
+    object-fit: cover;
+    width: 350px;
+    height: 200px;
 }
 
 .container-img img:hover{
